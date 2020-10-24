@@ -17,7 +17,7 @@ class SlingShot{
 
 
     display(){
-        if(this.sling.bodyA)
+        if(this.sling.bodyA){
             var pointA = this.sling.bodyA.position;
         
        
@@ -26,4 +26,5 @@ class SlingShot{
         line(pointA.x, pointA.y, pointB.x, pointB.y);
     }
   
+}
 }
